@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: poppins,sans-serif;
+}
+
+footer{
+    display:flex;
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+
+a:link{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+a:visited{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+a:hover{
+    color: #F2F2F2;
+    text-decoration: underline;
+}
+
+/* Class */
+
+.footers{
+    display:flex;
+    justify-content:center;
+    justify-content: space-between;
+    width:100%;
+    background: rgb(135,88,255);
+    background: linear-gradient(0deg, rgba(135,88,255,1) 0%, rgba(92,184,228,1) 80%, rgba(92,184,228,0.7512138644520308) 85%, rgba(92,184,228,0.5) 90%, rgba(92,184,228,0.25) 95%, rgba(92,184,228,0) 100%);
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.footers__icons{
+    display:flex;
+}
+
+.footers__icons__item{
+    margin-right:15px;
+    margin-left:5px;
+    width: 30px;
+    height: 30px;
+}
+
+.footers__icons_about{
+    padding-right: 10px;
+}
+.footers__nombre{
+    padding-left: 10px;
+    color:#F2F2F2;
+    font-size: 20px;
+}
+
+.top{
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+    background: rgb(135,88,255);
+    background: linear-gradient(180deg, rgba(135,88,255,1) 0%, rgba(92,184,228,1) 80%, rgba(92,184,228,0.7512138644520308) 85%, rgba(92,184,228,0.5) 90%, rgba(92,184,228,0.25) 95%, rgba(92,184,228,0) 100%);
+}
+
+.top__iconoMasNombre__icon{
+    padding-left: 5px;
+    margin:0px;
+    width: 40px;
+}
+
+
+.top__links{
+    display:flex;
+}
+
+
+
+.top__links__item{
+    justify-content:center;
+}
+
+.top__links__item__li{
+    opacity:75%;
+    display: inline;
+    padding-right: 20px;
+    font-size:15px;
+    align-content: center;
+}
+
+.top__links__item__li:hover{
+    opacity:100%
+}
+
+.top__links__item__icons{
+    padding-left: 5px;
+    margin:0px;
+    width: 30px;
+}
+
+.top__iconoMasNombre{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tituloPrincipal{
+    display: flex;
+    justify-content: center;
+}
+.img__portada{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.img__portada__items{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.img__portada__items__icons{
+    width:100%;
+    max-width: 500px;
+}
+
+.buscador{
+    display: flex;
+    justify-content:center;
+    background: rgb(135,88,255);
+    background: radial-gradient(circle, rgba(135,88,255,1) 0%, rgba(92,184,228,1) 80%, rgba(92,184,228,0.7512138644520308) 85%, rgba(92,184,228,0.5) 90%, rgba(92,184,228,0.25) 95%, rgba(92,184,228,0) 100%);
+    margin:0px;
+}
+.buscador__divs{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.buscador__divs__icons{
+    width: 20px;
+}
+
+.buscador__divs__items{
+    background-color: #F2F2F2;
+}
+
+.main__about{
+    display: flex;
+    flex-direction: column;
+}
+
+.main__about__comboImagenTexto{
+    display: flex;
+    flex-direction: row;
+}
+.main__about__comboImagenTexto__Img{
+    max-width:700px;
+    width:50%;
+    padding: 20px;
+}
+
+.main__viajes{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.main__viajes__mapsBuscador{
+    padding: 20px;
+}
+
+.main__viajes__mapsBuscador__buscador{
+    display: flex;
+    justify-content:space-evenly;
+    padding-bottom: 20px;
+    
+}
+
+.main__viajes__mapsBuscador__buscador__input{
+    margin-left: 20px;
+    width:100%;
+}
+
+.main__tours{
+    display: flex;
+    flex-direction: column;
+}
+
+.main__tours__comboImagenTexto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main__tours__comboImagenTexto__Img{
+    max-width:700px;
+    width:50%;
+    padding: 20px;  
+}
+
+.main__usuario{
+    width:100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content:center;
+}
+.main__usuario__caja{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    align-content: center;
+    align-items: center;
+    justify-content:center;
+}
+
+.main__usuario__caja__item__icon{
+    width:20px;
+    margin-right:20px;
+}
+
+.main__usuario__caja__item{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 2px;
+    background: rgb(92,184,228);
+background: radial-gradient(circle, rgba(92,184,228,1) 0%, rgba(131,189,217,1) 80%);
+}
+
+.main__usuario__caja__item__Registrarse{
+    padding: 60px;
+}
